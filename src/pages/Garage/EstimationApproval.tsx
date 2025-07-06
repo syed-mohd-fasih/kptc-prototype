@@ -1,3 +1,3 @@
 export default function EstimationApproval() {
-    return <div>EstimationApproval</div>;
+  return <div>EstimationApproval</div>;
 }

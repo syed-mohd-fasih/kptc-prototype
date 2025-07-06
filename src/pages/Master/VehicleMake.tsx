@@ -1,3 +1,3 @@
 export default function VehicleMake() {
-    return <div>VehicleMake</div>;
+  return <div>VehicleMake</div>;
 }

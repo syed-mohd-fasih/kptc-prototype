@@ -1,3 +1,3 @@
 export default function AssignInspectorMOI() {
-    return <div>AssignInspectorMOI</div>;
+  return <div>AssignInspectorMOI</div>;
 }

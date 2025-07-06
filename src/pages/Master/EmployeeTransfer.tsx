@@ -1,3 +1,3 @@
 export default function EmployeeTransfer() {
-    return <div>EmployeeTransfer</div>;
+  return <div>EmployeeTransfer</div>;
 }

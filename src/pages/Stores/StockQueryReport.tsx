@@ -1,3 +1,3 @@
 export default function StockQueryReport() {
-    return <div>StockQueryReport</div>;
+  return <div>StockQueryReport</div>;
 }

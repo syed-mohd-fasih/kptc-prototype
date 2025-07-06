@@ -1,3 +1,3 @@
 export default function TenderPrice() {
-    return <div>TenderPrice</div>;
+  return <div>TenderPrice</div>;
 }

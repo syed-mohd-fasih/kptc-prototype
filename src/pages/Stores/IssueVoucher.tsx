@@ -1,3 +1,3 @@
 export default function IssueVoucher() {
-    return <div>IssueVoucher</div>;
+  return <div>IssueVoucher</div>;
 }

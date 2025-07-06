@@ -1,3 +1,3 @@
 export default function MaintenanceInvoice() {
-    return <div>MaintenanceInvoice</div>;
+  return <div>MaintenanceInvoice</div>;
 }

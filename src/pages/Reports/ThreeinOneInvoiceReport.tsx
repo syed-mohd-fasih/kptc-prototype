@@ -1,3 +1,3 @@
 export default function ThreeinOneInvoiceReport() {
-    return <div>ThreeinOneInvoiceReport</div>;
+  return <div>ThreeinOneInvoiceReport</div>;
 }

@@ -1,3 +1,3 @@
 export default function QCPassOut() {
-    return <div>QCPassOut</div>;
+  return <div>QCPassOut</div>;
 }

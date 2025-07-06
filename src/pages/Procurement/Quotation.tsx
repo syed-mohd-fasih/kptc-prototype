@@ -1,3 +1,3 @@
 export default function Quotation() {
-    return <div>Quotation</div>;
+  return <div>Quotation</div>;
 }

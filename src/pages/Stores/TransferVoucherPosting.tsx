@@ -1,3 +1,3 @@
 export default function TransferVoucherPosting() {
-    return <div>TransferVoucherPosting</div>;
+  return <div>TransferVoucherPosting</div>;
 }

@@ -1,3 +1,3 @@
 export default function JobOrderStatus() {
-    return <div>JobOrderStatus</div>;
+  return <div>JobOrderStatus</div>;
 }

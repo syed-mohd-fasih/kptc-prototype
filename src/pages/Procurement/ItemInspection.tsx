@@ -1,3 +1,3 @@
 export default function ItemInspection() {
-    return <div>ItemInspection</div>;
+  return <div>ItemInspection</div>;
 }

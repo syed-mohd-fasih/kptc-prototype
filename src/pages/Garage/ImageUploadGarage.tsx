@@ -1,3 +1,3 @@
 export default function ImageUploadGarage() {
-    return <div>ImageUploadGarage</div>;
+  return <div>ImageUploadGarage</div>;
 }

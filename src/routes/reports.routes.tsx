@@ -18,89 +18,89 @@ import { type RouteItem } from "@/routes";
 import { BarChartIcon } from "lucide-react";
 
 export const reportsRoutes: RouteItem = {
-    path: "reports",
-    title: "Reports",
-    icon: BarChartIcon,
-    children: [
-        {
-            path: "job-order-status",
-            title: "Job Order Status",
-            element: <JobOrderStatus />,
-        },
-        {
-            path: "work-order-progress",
-            title: "Work Order In Progress",
-            element: <WorkOrderInProgress />,
-        },
-        {
-            path: "job-card-timeline",
-            title: "Job Card Timeline",
-            element: <JobCardTimeline />,
-        },
-        {
-            path: "invoice-total",
-            title: "Invoice Total",
-            element: <InvoiceTotal />,
-        },
-        {
-            path: "historical-maintenance",
-            title: "Historical Maintenance Data",
-            element: <HistoricalMaintenanceData />,
-        },
-        {
-            path: "direct-purchases",
-            title: "Direct Purchases of Spare Parts",
-            element: <DirectPurchasesOfSpareParts />,
-        },
-        {
-            path: "spare-parts-requests",
-            title: "Spare Parts Requests",
-            element: <SparePartsRequest />,
-        },
-        {
-            path: "user-movement",
-            title: "User Movement",
-            element: <UserMovement />,
-        },
-        {
-            path: "garage-movement",
-            title: "Garage Movement",
-            element: <GarageMovement />,
-        },
-        {
-            path: "moi-financial",
-            title: "MOI Monthly Financial",
-            element: <MOIMonthlyFinancial />,
-        },
-        {
-            path: "spare-parts-issue",
-            title: "Spare Parts Issue",
-            element: <SparePartsIssue />,
-        },
-        {
-            path: "jo-summary",
-            title: "Submitted JO Summary",
-            element: <SubmittedJOSummary />,
-        },
-        {
-            path: "invoice-3in1-report",
-            title: "3 in 1 Invoice Report",
-            element: <ThreeinOneInvoiceReport />,
-        },
-        {
-            path: "pending-work-orders",
-            title: "Pending Work Orders",
-            element: <PendingWorkOrders />,
-        },
-        {
-            path: "avg-execution-time",
-            title: "Average Execution (Work Order)",
-            element: <AverageTimeForExecutingWorkOrders />,
-        },
-        {
-            path: "overdue-work-orders",
-            title: "Overdue Work Orders",
-            element: <OverdueWorkOrders />,
-        },
-    ],
+  path: "reports",
+  title: "Reports",
+  icon: BarChartIcon,
+  children: [
+    {
+      path: "job-order-status",
+      title: "Job Order Status",
+      element: <JobOrderStatus />,
+    },
+    {
+      path: "work-order-progress",
+      title: "Work Order In Progress",
+      element: <WorkOrderInProgress />,
+    },
+    {
+      path: "job-card-timeline",
+      title: "Job Card Timeline",
+      element: <JobCardTimeline />,
+    },
+    {
+      path: "invoice-total",
+      title: "Invoice Total",
+      element: <InvoiceTotal />,
+    },
+    {
+      path: "historical-maintenance",
+      title: "Historical Maintenance Data",
+      element: <HistoricalMaintenanceData />,
+    },
+    {
+      path: "direct-purchases",
+      title: "Direct Purchases of Spare Parts",
+      element: <DirectPurchasesOfSpareParts />,
+    },
+    {
+      path: "spare-parts-requests",
+      title: "Spare Parts Requests",
+      element: <SparePartsRequest />,
+    },
+    {
+      path: "user-movement",
+      title: "User Movement",
+      element: <UserMovement />,
+    },
+    {
+      path: "garage-movement",
+      title: "Garage Movement",
+      element: <GarageMovement />,
+    },
+    {
+      path: "moi-financial",
+      title: "MOI Monthly Financial",
+      element: <MOIMonthlyFinancial />,
+    },
+    {
+      path: "spare-parts-issue",
+      title: "Spare Parts Issue",
+      element: <SparePartsIssue />,
+    },
+    {
+      path: "jo-summary",
+      title: "Submitted JO Summary",
+      element: <SubmittedJOSummary />,
+    },
+    {
+      path: "invoice-3in1-report",
+      title: "3 in 1 Invoice Report",
+      element: <ThreeinOneInvoiceReport />,
+    },
+    {
+      path: "pending-work-orders",
+      title: "Pending Work Orders",
+      element: <PendingWorkOrders />,
+    },
+    {
+      path: "avg-execution-time",
+      title: "Average Execution (Work Order)",
+      element: <AverageTimeForExecutingWorkOrders />,
+    },
+    {
+      path: "overdue-work-orders",
+      title: "Overdue Work Orders",
+      element: <OverdueWorkOrders />,
+    },
+  ],
 };

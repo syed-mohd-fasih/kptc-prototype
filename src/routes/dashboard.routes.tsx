@@ -6,20 +6,20 @@ import ExecutiveManagement from "@/pages/dashboard/ExecutiveManagement";
 import ContractingParty from "@/pages/dashboard/ContractingParty";
 
 export const dashboardRoutes: RouteItem = {
-    path: "dashboard",
-    title: "Dashboard",
-    icon: SquareKanban,
-    children: [
-        { path: "admin", title: "Admin", element: <Admin /> },
-        {
-            path: "executive-management",
-            title: "Executive Management",
-            element: <ExecutiveManagement />,
-        },
-        {
-            path: "contracting-party",
-            title: "Contracting Party",
-            element: <ContractingParty />,
-        },
-    ],
+  path: "dashboard",
+  title: "Dashboard",
+  icon: SquareKanban,
+  children: [
+    { path: "admin", title: "Admin", element: <Admin /> },
+    {
+      path: "executive-management",
+      title: "Executive Management",
+      element: <ExecutiveManagement />,
+    },
+    {
+      path: "contracting-party",
+      title: "Contracting Party",
+      element: <ContractingParty />,
+    },
+  ],
 };

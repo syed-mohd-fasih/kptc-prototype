@@ -14,24 +14,24 @@ import { reportsRoutes } from "./reports.routes";
 import type { LucideIcon } from "lucide-react";
 
 export type RouteItem = {
-    path: string;
-    title: string;
-    icon?: LucideIcon;
-    element?: React.ReactNode;
-    children?: RouteItem[];
+  path: string;
+  title: string;
+  icon?: LucideIcon;
+  element?: React.ReactNode;
+  children?: RouteItem[];
 };
 
 export const appRoutes: RouteItem[] = [
-    dashboardRoutes,
-    moiReceptionRoutes,
-    kptcReceptionRoutes,
-    garageRoutes,
-    stickerRoutes,
-    winchRoutes,
-    exceptionalOrderRoutes,
-    procurementRoutes,
-    accountsRoutes,
-    storesRoutes,
-    masterRoutes,
-    reportsRoutes,
+  dashboardRoutes,
+  moiReceptionRoutes,
+  kptcReceptionRoutes,
+  garageRoutes,
+  stickerRoutes,
+  winchRoutes,
+  exceptionalOrderRoutes,
+  procurementRoutes,
+  accountsRoutes,
+  storesRoutes,
+  masterRoutes,
+  reportsRoutes,
 ];

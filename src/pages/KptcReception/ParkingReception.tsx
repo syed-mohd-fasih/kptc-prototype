@@ -1,3 +1,3 @@
 export default function ParkingReception() {
-    return <div>ParkingReception</div>;
+  return <div>ParkingReception</div>;
 }

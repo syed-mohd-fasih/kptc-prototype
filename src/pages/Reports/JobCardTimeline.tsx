@@ -1,3 +1,3 @@
 export default function JobCardTimeline() {
-    return <div>JobCardTimeline</div>;
+  return <div>JobCardTimeline</div>;
 }

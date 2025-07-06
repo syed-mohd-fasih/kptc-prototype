@@ -1,3 +1,3 @@
 export default function CostReportApprovalMOI() {
-    return <div>CostReportApprovalMOI</div>;
+  return <div>CostReportApprovalMOI</div>;
 }

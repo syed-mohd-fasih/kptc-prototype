@@ -1,3 +1,3 @@
 export default function GarageTransfer() {
-    return <div>GarageTransfer</div>;
+  return <div>GarageTransfer</div>;
 }

@@ -1,3 +1,3 @@
 export default function CostReport() {
-    return <div>CostReport</div>;
+  return <div>CostReport</div>;
 }

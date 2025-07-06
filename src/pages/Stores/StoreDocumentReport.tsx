@@ -1,3 +1,3 @@
 export default function StoreDocumentReport() {
-    return <div>StoreDocumentReport</div>;
+  return <div>StoreDocumentReport</div>;
 }

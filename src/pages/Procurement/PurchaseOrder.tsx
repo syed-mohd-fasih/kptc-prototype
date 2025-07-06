@@ -1,3 +1,3 @@
 export default function PurchaseOrder() {
-    return <div>PurchaseOrder</div>;
+  return <div>PurchaseOrder</div>;
 }

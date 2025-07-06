@@ -1,3 +1,3 @@
 export default function TeamLeaderWorkbench() {
-    return <div>TeamLeaderWorkbench</div>;
+  return <div>TeamLeaderWorkbench</div>;
 }

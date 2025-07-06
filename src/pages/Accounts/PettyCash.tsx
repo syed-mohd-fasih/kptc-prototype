@@ -1,3 +1,3 @@
 export default function PettyCash() {
-    return <div>PettyCash</div>;
+  return <div>PettyCash</div>;
 }
