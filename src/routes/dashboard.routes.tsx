@@ -4,6 +4,7 @@ import { SquareKanban } from "lucide-react"
 import Admin from "@/pages/dashboard/Admin"
 import ExecutiveManagement from "@/pages/dashboard/ExecutiveManagement"
 import ContractingParty from "@/pages/dashboard/ContractingParty"
+import GarageTeamLeader from "@/pages/dashboard/GarageTeamLeader"
 
 export const dashboardRoutes: RouteItem = {
     path: "dashboard",
@@ -20,6 +21,11 @@ export const dashboardRoutes: RouteItem = {
             path: "contracting-party",
             title: "Contracting Party",
             element: <ContractingParty />,
+        },
+        {
+            path: "garage-team-leader",
+            title: "Garage Team Leader",
+            element: <GarageTeamLeader />,
         },
     ],
 }
