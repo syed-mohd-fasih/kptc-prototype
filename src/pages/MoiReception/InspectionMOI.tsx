@@ -1,3 +1,3 @@
 export default function InspectionMOI() {
-  return <div>InspectionMOI</div>;
+    return <div>InspectionMOI</div>
 }

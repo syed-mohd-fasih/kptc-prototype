@@ -1,3 +1,3 @@
 export default function ParkingGarage() {
-  return <div>ParkingGarage</div>;
+    return <div>ParkingGarage</div>
 }

@@ -1,3 +1,3 @@
 export default function RejectJobCard() {
-  return <div>RejectJobCard</div>;
+    return <div>RejectJobCard</div>
 }

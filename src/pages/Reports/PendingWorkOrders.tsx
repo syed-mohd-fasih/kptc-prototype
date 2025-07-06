@@ -1,3 +1,3 @@
 export default function PendingWorkOrders() {
-  return <div>PendingWorkOrders</div>;
+    return <div>PendingWorkOrders</div>
 }

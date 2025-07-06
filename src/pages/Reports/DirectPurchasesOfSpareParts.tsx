@@ -1,3 +1,3 @@
 export default function DirectPurchasesOfSpareParts() {
-  return <div>DirectPurchasesOfSpareParts</div>;
+    return <div>DirectPurchasesOfSpareParts</div>
 }

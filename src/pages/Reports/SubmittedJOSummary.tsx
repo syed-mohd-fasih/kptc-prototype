@@ -1,3 +1,3 @@
 export default function SubmittedJOSummary() {
-  return <div>SubmittedJOSummary</div>;
+    return <div>SubmittedJOSummary</div>
 }

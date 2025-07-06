@@ -1,3 +1,3 @@
 export default function ReturnVoucher() {
-  return <div>ReturnVoucher</div>;
+    return <div>ReturnVoucher</div>
 }

@@ -1,3 +1,3 @@
 export default function SparePartsRequest() {
-  return <div>SparePartsRequest</div>;
+    return <div>SparePartsRequest</div>
 }

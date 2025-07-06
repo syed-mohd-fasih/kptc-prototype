@@ -1,3 +1,3 @@
 export default function SparePartsIssue() {
-  return <div>SparePartsIssue</div>;
+    return <div>SparePartsIssue</div>
 }

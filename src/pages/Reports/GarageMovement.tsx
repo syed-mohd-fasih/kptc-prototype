@@ -1,3 +1,3 @@
 export default function GarageMovement() {
-  return <div>GarageMovement</div>;
+    return <div>GarageMovement</div>
 }

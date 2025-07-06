@@ -1,3 +1,3 @@
 export default function VehicleModel() {
-  return <div>VehicleModel</div>;
+    return <div>VehicleModel</div>
 }

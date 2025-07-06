@@ -1,3 +1,3 @@
 export default function CurrentStockReport() {
-  return <div>CurrentStockReport</div>;
+    return <div>CurrentStockReport</div>
 }

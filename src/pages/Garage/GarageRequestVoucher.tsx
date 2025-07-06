@@ -1,3 +1,3 @@
 export default function GarageRequestVoucher() {
-  return <div>GarageRequestVoucher</div>;
+    return <div>GarageRequestVoucher</div>
 }

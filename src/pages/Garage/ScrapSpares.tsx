@@ -1,3 +1,3 @@
 export default function ScrapSpares() {
-  return <div>ScrapSpares</div>;
+    return <div>ScrapSpares</div>
 }

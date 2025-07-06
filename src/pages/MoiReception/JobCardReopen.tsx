@@ -1,3 +1,3 @@
 export default function JobCardReopen() {
-  return <div>JobCardReopen</div>;
+    return <div>JobCardReopen</div>
 }

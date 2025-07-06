@@ -1,3 +1,3 @@
 export default function WinchMove() {
-  return <div>WinchMove</div>;
+    return <div>WinchMove</div>
 }

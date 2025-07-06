@@ -1,3 +1,3 @@
 export default function JobCard() {
-  return <div>JobCard</div>;
+    return <div>JobCard</div>
 }

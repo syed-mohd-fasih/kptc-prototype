@@ -1,3 +1,3 @@
 export default function SubRepair() {
-  return <div>SubRepair</div>;
+    return <div>SubRepair</div>
 }

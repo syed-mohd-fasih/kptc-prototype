@@ -1,3 +1,3 @@
 export default function VehicleDelivery() {
-  return <div>VehicleDelivery</div>;
+    return <div>VehicleDelivery</div>
 }

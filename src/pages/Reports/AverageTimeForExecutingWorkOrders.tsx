@@ -1,3 +1,3 @@
 export default function AverageTimeForExecutingWorkOrders() {
-  return <div>AverageTimeForExecutingWorkOrders</div>;
+    return <div>AverageTimeForExecutingWorkOrders</div>
 }

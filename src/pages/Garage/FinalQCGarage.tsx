@@ -1,3 +1,3 @@
 export default function FinalQCGarage() {
-  return <div>FinalQCGarage</div>;
+    return <div>FinalQCGarage</div>
 }

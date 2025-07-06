@@ -1,3 +1,3 @@
 export default function QCPassIn() {
-  return <div>QCPassIn</div>;
+    return <div>QCPassIn</div>
 }

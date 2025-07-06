@@ -1,3 +1,3 @@
 export default function ThreeinOneInvoiceApproval() {
-  return <div>ThreeinOneInvoiceApproval</div>;
+    return <div>ThreeinOneInvoiceApproval</div>
 }

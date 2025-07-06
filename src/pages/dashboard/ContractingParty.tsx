@@ -1,3 +1,3 @@
 export default function ContractingParty() {
-  return <div>ContractingParty</div>;
+    return <div>ContractingParty</div>
 }

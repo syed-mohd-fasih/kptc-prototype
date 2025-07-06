@@ -1,3 +1,3 @@
 export default function MOIMonthlyFinancial() {
-  return <div>MOIMonthlyFinancial</div>;
+    return <div>MOIMonthlyFinancial</div>
 }

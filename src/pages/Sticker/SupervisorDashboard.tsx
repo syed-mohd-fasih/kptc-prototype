@@ -1,3 +1,3 @@
 export default function SupervisorDashboard() {
-  return <div>SupervisorDashboard</div>;
+    return <div>SupervisorDashboard</div>
 }

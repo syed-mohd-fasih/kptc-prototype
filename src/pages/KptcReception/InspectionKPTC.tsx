@@ -1,3 +1,3 @@
 export default function InspectionKPTC() {
-  return <div>InspectionKPTC</div>;
+    return <div>InspectionKPTC</div>
 }

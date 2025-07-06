@@ -1,3 +1,3 @@
 export default function EmployeeTransferClose() {
-  return <div>EmployeeTransferClose</div>;
+    return <div>EmployeeTransferClose</div>
 }

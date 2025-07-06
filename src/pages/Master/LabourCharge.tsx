@@ -1,3 +1,3 @@
 export default function LabourCharge() {
-  return <div>LabourCharge</div>;
+    return <div>LabourCharge</div>
 }

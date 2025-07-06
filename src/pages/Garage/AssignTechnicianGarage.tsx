@@ -1,3 +1,3 @@
 export default function AssignTechnicianGarage() {
-  return <div>AssignTechnicianGarage</div>;
+    return <div>AssignTechnicianGarage</div>
 }
