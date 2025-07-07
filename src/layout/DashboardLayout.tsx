@@ -85,9 +85,15 @@ export default function DashboardLayout() {
                     <Suspense fallback={<PageSkeleton />}>
                         <Outlet />
                     </Suspense>
-                    <Toaster expand visibleToasts={5} richColors={true} />
                 </div>
             </SidebarInset>
+            <Toaster
+                closeButton={true}
+                expand={false}
+                visibleToasts={5}
+                richColors={true}
+                position="top-center"
+            />
         </SidebarProvider>
     )
 }
