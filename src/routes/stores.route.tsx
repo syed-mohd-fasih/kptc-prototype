@@ -1,16 +1,18 @@
-import CurrentStockReport from "@/pages/Stores/CurrentStockReport"
-import DailyTransactionReport from "@/pages/Stores/DailyTransactionReport"
-import IssueVoucher from "@/pages/Stores/IssueVoucher"
-import PurchaseRequestApprovalKPTC from "@/pages/Stores/PurchaseRequestApprovalKPTC"
-import PurchaseRequestWithoutJO from "@/pages/Stores/PurchaseRequestWithoutJO"
-import ReceiptVoucherDirect from "@/pages/Stores/ReceiptVoucherDirect"
-import ReturnVoucher from "@/pages/Stores/ReturnVoucher"
-import StockQueryReport from "@/pages/Stores/StockQueryReport"
-import StoreDocumentReport from "@/pages/Stores/StoreDocumentReport"
-import TranferVoucherByDemand from "@/pages/Stores/TranferVoucherByDemand"
-import TransferVoucherPosting from "@/pages/Stores/TransferVoucherPosting"
 import { type RouteItem } from "@/routes"
 import { WarehouseIcon } from "lucide-react"
+import { lazy } from "react"
+
+const CurrentStockReport = lazy(() => import("@/pages/Stores/CurrentStockReport"))
+const DailyTransactionReport = lazy(() => import("@/pages/Stores/DailyTransactionReport"))
+const IssueVoucher = lazy(() => import("@/pages/Stores/IssueVoucher"))
+const PurchaseRequestApprovalKPTC = lazy(() => import("@/pages/Stores/PurchaseRequestApprovalKPTC"))
+const PurchaseRequestWithoutJO = lazy(() => import("@/pages/Stores/PurchaseRequestWithoutJO"))
+const ReceiptVoucherDirect = lazy(() => import("@/pages/Stores/ReceiptVoucherDirect"))
+const ReturnVoucher = lazy(() => import("@/pages/Stores/ReturnVoucher"))
+const StockQueryReport = lazy(() => import("@/pages/Stores/StockQueryReport"))
+const StoreDocumentReport = lazy(() => import("@/pages/Stores/StoreDocumentReport"))
+const TranferVoucherByDemand = lazy(() => import("@/pages/Stores/TranferVoucherByDemand"))
+const TransferVoucherPosting = lazy(() => import("@/pages/Stores/TransferVoucherPosting"))
 
 export const storesRoutes: RouteItem = {
     path: "stores",

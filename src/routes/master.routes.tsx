@@ -1,23 +1,25 @@
-import ChangePassword from "@/pages/Master/ChangePassword"
-import EmployeeSync from "@/pages/Master/EmployeeSync"
-import EmployeeTransfer from "@/pages/Master/EmployeeTransfer"
-import EmployeeTransferApprove from "@/pages/Master/EmployeeTransferApprove"
-import EmployeeTransferClose from "@/pages/Master/EmployeeTransferClose"
-import ItemOpenRequest from "@/pages/Master/ItemOpenRequest"
-import ItemSync from "@/pages/Master/ItemSync"
-import LabourCharge from "@/pages/Master/LabourCharge"
-import MainRepair from "@/pages/Master/MainRepair"
-import RolePermission from "@/pages/Master/RolePermission"
-import ServiceKilometers from "@/pages/Master/ServiceKilometers"
-import SubRepair from "@/pages/Master/SubRepair"
-import Supplier from "@/pages/Master/Supplier"
-import TenderPrice from "@/pages/Master/TenderPrice"
-import Users from "@/pages/Master/Users"
-import Vehicle from "@/pages/Master/Vehicle"
-import VehicleMake from "@/pages/Master/VehicleMake"
-import VehicleModel from "@/pages/Master/VehicleModel"
 import { type RouteItem } from "@/routes"
 import { SettingsIcon, Sticker } from "lucide-react"
+import { lazy } from "react"
+
+const ChangePassword = lazy(() => import("@/pages/Master/ChangePassword"))
+const EmployeeSync = lazy(() => import("@/pages/Master/EmployeeSync"))
+const EmployeeTransfer = lazy(() => import("@/pages/Master/EmployeeTransfer"))
+const EmployeeTransferApprove = lazy(() => import("@/pages/Master/EmployeeTransferApprove"))
+const EmployeeTransferClose = lazy(() => import("@/pages/Master/EmployeeTransferClose"))
+const ItemOpenRequest = lazy(() => import("@/pages/Master/ItemOpenRequest"))
+const ItemSync = lazy(() => import("@/pages/Master/ItemSync"))
+const LabourCharge = lazy(() => import("@/pages/Master/LabourCharge"))
+const MainRepair = lazy(() => import("@/pages/Master/MainRepair"))
+const RolePermission = lazy(() => import("@/pages/Master/RolePermission"))
+const ServiceKilometers = lazy(() => import("@/pages/Master/ServiceKilometers"))
+const SubRepair = lazy(() => import("@/pages/Master/SubRepair"))
+const Supplier = lazy(() => import("@/pages/Master/Supplier"))
+const TenderPrice = lazy(() => import("@/pages/Master/TenderPrice"))
+const Users = lazy(() => import("@/pages/Master/Users"))
+const Vehicle = lazy(() => import("@/pages/Master/Vehicle"))
+const VehicleMake = lazy(() => import("@/pages/Master/VehicleMake"))
+const VehicleModel = lazy(() => import("@/pages/Master/VehicleModel"))
 
 export const masterRoutes: RouteItem = {
     path: "master",

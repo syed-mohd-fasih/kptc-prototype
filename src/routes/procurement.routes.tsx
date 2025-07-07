@@ -1,16 +1,24 @@
-import CostReport from "@/pages/Procurement/CostReport"
-import CostReportApprovalKPTC from "@/pages/Procurement/CostReportApprovalKPTC"
-import CostReportApprovalMOI from "@/pages/Procurement/CostReportApprovalMOI"
-import ItemInspection from "@/pages/Procurement/ItemInspection"
-import PurchaseOrder from "@/pages/Procurement/PurchaseOrder"
-import PurchaseOrderApproval from "@/pages/Procurement/PurchaseOrderApproval"
-import PurchaseRequestApproval3rdLevel from "@/pages/Procurement/PurchaseRequestApproval3rdLevel"
-import PurchaseRequestApprovalKPTC from "@/pages/Procurement/PurchaseRequestApprovalKPTC"
-import PurchaseRequestApprovalMOI from "@/pages/Procurement/PurchaseRequestApprovalMOI"
-import PurchaseRequestWithJO from "@/pages/Procurement/PurchaseRequestWithJO"
-import Quotation from "@/pages/Procurement/Quotation"
 import { type RouteItem } from "@/routes"
 import { ShoppingCartIcon } from "lucide-react"
+import { lazy } from "react"
+
+const CostReport = lazy(() => import("@/pages/Procurement/CostReport"))
+const CostReportApprovalKPTC = lazy(() => import("@/pages/Procurement/CostReportApprovalKPTC"))
+const CostReportApprovalMOI = lazy(() => import("@/pages/Procurement/CostReportApprovalMOI"))
+const ItemInspection = lazy(() => import("@/pages/Procurement/ItemInspection"))
+const PurchaseOrder = lazy(() => import("@/pages/Procurement/PurchaseOrder"))
+const PurchaseOrderApproval = lazy(() => import("@/pages/Procurement/PurchaseOrderApproval"))
+const PurchaseRequestApproval3rdLevel = lazy(
+    () => import("@/pages/Procurement/PurchaseRequestApproval3rdLevel")
+)
+const PurchaseRequestApprovalKPTC = lazy(
+    () => import("@/pages/Procurement/PurchaseRequestApprovalKPTC")
+)
+const PurchaseRequestApprovalMOI = lazy(
+    () => import("@/pages/Procurement/PurchaseRequestApprovalMOI")
+)
+const PurchaseRequestWithJO = lazy(() => import("@/pages/Procurement/PurchaseRequestWithJO"))
+const Quotation = lazy(() => import("@/pages/Procurement/Quotation"))
 
 export const procurementRoutes: RouteItem = {
     path: "procurement",

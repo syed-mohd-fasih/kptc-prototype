@@ -1,6 +1,8 @@
-import Dashboard from "@/pages/ExceptionalOrder/Dashboard"
 import { type RouteItem } from "@/routes"
 import { AlertTriangleIcon } from "lucide-react"
+import { lazy } from "react"
+
+const Dashboard = lazy(() => import("@/pages/ExceptionalOrder/Dashboard"))
 
 export const exceptionalOrderRoutes: RouteItem = {
     path: "exceptional-order",

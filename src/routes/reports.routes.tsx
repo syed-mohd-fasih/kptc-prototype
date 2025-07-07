@@ -1,21 +1,27 @@
-import AverageTimeForExecutingWorkOrders from "@/pages/Reports/AverageTimeForExecutingWorkOrders"
-import DirectPurchasesOfSpareParts from "@/pages/Reports/DirectPurchasesOfSpareParts"
-import GarageMovement from "@/pages/Reports/GarageMovement"
-import HistoricalMaintenanceData from "@/pages/Reports/HistoricalMaintenanceData"
-import InvoiceTotal from "@/pages/Reports/InvoiceTotal"
-import JobCardTimeline from "@/pages/Reports/JobCardTimeline"
-import JobOrderStatus from "@/pages/Reports/JobOrderStatus"
-import MOIMonthlyFinancial from "@/pages/Reports/MOIMonthlyFinancial"
-import OverdueWorkOrders from "@/pages/Reports/OverdueWorkOrders"
-import PendingWorkOrders from "@/pages/Reports/PendingWorkOrders"
-import SparePartsIssue from "@/pages/Reports/SparePartsIssue"
-import SparePartsRequest from "@/pages/Reports/SparePartsRequest"
-import SubmittedJOSummary from "@/pages/Reports/SubmittedJOSummary"
-import ThreeinOneInvoiceReport from "@/pages/Reports/ThreeinOneInvoiceReport"
-import UserMovement from "@/pages/Reports/UserMovement"
-import WorkOrderInProgress from "@/pages/Reports/WorkOrderInProgress"
 import { type RouteItem } from "@/routes"
 import { BarChartIcon } from "lucide-react"
+import { lazy } from "react"
+
+const AverageTimeForExecutingWorkOrders = lazy(
+    () => import("@/pages/Reports/AverageTimeForExecutingWorkOrders")
+)
+const DirectPurchasesOfSpareParts = lazy(
+    () => import("@/pages/Reports/DirectPurchasesOfSpareParts")
+)
+const GarageMovement = lazy(() => import("@/pages/Reports/GarageMovement"))
+const HistoricalMaintenanceData = lazy(() => import("@/pages/Reports/HistoricalMaintenanceData"))
+const InvoiceTotal = lazy(() => import("@/pages/Reports/InvoiceTotal"))
+const JobCardTimeline = lazy(() => import("@/pages/Reports/JobCardTimeline"))
+const JobOrderStatus = lazy(() => import("@/pages/Reports/JobOrderStatus"))
+const MOIMonthlyFinancial = lazy(() => import("@/pages/Reports/MOIMonthlyFinancial"))
+const OverdueWorkOrders = lazy(() => import("@/pages/Reports/OverdueWorkOrders"))
+const PendingWorkOrders = lazy(() => import("@/pages/Reports/PendingWorkOrders"))
+const SparePartsIssue = lazy(() => import("@/pages/Reports/SparePartsIssue"))
+const SparePartsRequest = lazy(() => import("@/pages/Reports/SparePartsRequest"))
+const SubmittedJOSummary = lazy(() => import("@/pages/Reports/SubmittedJOSummary"))
+const ThreeinOneInvoiceReport = lazy(() => import("@/pages/Reports/ThreeinOneInvoiceReport"))
+const UserMovement = lazy(() => import("@/pages/Reports/UserMovement"))
+const WorkOrderInProgress = lazy(() => import("@/pages/Reports/WorkOrderInProgress"))
 
 export const reportsRoutes: RouteItem = {
     path: "reports",

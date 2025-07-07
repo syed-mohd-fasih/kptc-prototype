@@ -1,11 +1,13 @@
-import ChangeJobStatus from "@/pages/KptcReception/ChangeJobStatus"
-import GarageIssueVoucher from "@/pages/KptcReception/GarageIssueVoucher"
-import InspectionKPTC from "@/pages/KptcReception/InspectionKPTC"
-import JobOrder from "@/pages/KptcReception/JobOrder"
-import ParkingReception from "@/pages/KptcReception/ParkingReception"
-import VehicleHistory from "@/pages/KptcReception/VehicleHistory"
 import type { RouteItem } from "@/routes"
 import { BookOpen } from "lucide-react"
+import { lazy } from "react"
+
+const ChangeJobStatus = lazy(() => import("@/pages/KptcReception/ChangeJobStatus"))
+const GarageIssueVoucher = lazy(() => import("@/pages/KptcReception/GarageIssueVoucher"))
+const InspectionKPTC = lazy(() => import("@/pages/KptcReception/InspectionKPTC"))
+const JobOrder = lazy(() => import("@/pages/KptcReception/JobOrder"))
+const ParkingReception = lazy(() => import("@/pages/KptcReception/ParkingReception"))
+const VehicleHistory = lazy(() => import("@/pages/KptcReception/VehicleHistory"))
 
 export const kptcReceptionRoutes: RouteItem = {
     path: "kptc-reception",

@@ -15,6 +15,8 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { Toaster } from "@/components/ui/sonner"
 import { LanguageToggle } from "@/components/lang-toggle"
 import { useTranslation } from "react-i18next"
+import { Suspense } from "react"
+import PageSkeleton from "@/components/skeletons/PageSkeleton"
 
 function DynamicBreadcrumbs() {
     const { t } = useTranslation()
@@ -80,7 +82,9 @@ export default function DashboardLayout() {
                     </div>
                 </header>
                 <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-                    <Outlet />
+                    <Suspense fallback={<PageSkeleton />}>
+                        <Outlet />
+                    </Suspense>
                     <Toaster expand visibleToasts={5} richColors={true} />
                 </div>
             </SidebarInset>

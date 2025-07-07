@@ -1,12 +1,14 @@
-import Invoice from "@/pages/Accounts/Invoice"
-import JOSubmitforInvoice from "@/pages/Accounts/JOSubmitforInvoice"
-import MaintenanceInvoice from "@/pages/Accounts/MaintenanceInvoice"
-import PettyCash from "@/pages/Accounts/PettyCash"
-import PettyCashApproval from "@/pages/Accounts/PettyCashApproval"
-import ThreeinOneInvoice from "@/pages/Accounts/ThreeinOneInvoice"
-import ThreeinOneInvoiceApproval from "@/pages/Accounts/ThreeinOneInvoiceApproval"
 import { type RouteItem } from "@/routes"
 import { ReceiptIcon } from "lucide-react"
+import { lazy } from "react"
+
+const Invoice = lazy(() => import("@/pages/Accounts/Invoice"))
+const JOSubmitforInvoice = lazy(() => import("@/pages/Accounts/JOSubmitforInvoice"))
+const MaintenanceInvoice = lazy(() => import("@/pages/Accounts/MaintenanceInvoice"))
+const PettyCash = lazy(() => import("@/pages/Accounts/PettyCash"))
+const PettyCashApproval = lazy(() => import("@/pages/Accounts/PettyCashApproval"))
+const ThreeinOneInvoice = lazy(() => import("@/pages/Accounts/ThreeinOneInvoice"))
+const ThreeinOneInvoiceApproval = lazy(() => import("@/pages/Accounts/ThreeinOneInvoiceApproval"))
 
 export const accountsRoutes: RouteItem = {
     path: "accounts",

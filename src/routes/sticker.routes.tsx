@@ -1,9 +1,11 @@
-import StickerDashboard from "@/pages/Sticker/StickerDashboard"
-import SupervisorDashboard from "@/pages/Sticker/SupervisorDashboard"
-import TeamLeaderWorkbench from "@/pages/Sticker/TeamLeaderWorkbench"
-import TechnicianTaskScreen from "@/pages/Sticker/TechnicianTaskScreen"
 import { type RouteItem } from "@/routes"
 import { StickerIcon } from "lucide-react"
+import { lazy } from "react"
+
+const StickerDashboard = lazy(() => import("@/pages/Sticker/StickerDashboard"))
+const SupervisorDashboard = lazy(() => import("@/pages/Sticker/SupervisorDashboard"))
+const TeamLeaderWorkbench = lazy(() => import("@/pages/Sticker/TeamLeaderWorkbench"))
+const TechnicianTaskScreen = lazy(() => import("@/pages/Sticker/TechnicianTaskScreen"))
 
 export const stickerRoutes: RouteItem = {
     path: "sticker",

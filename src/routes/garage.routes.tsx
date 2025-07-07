@@ -1,30 +1,32 @@
-import AssignTeamLeader from "@/pages/Garage/AssignTeamLeader"
-import AssignTechnicianGarage from "@/pages/Garage/AssignTechnicianGarage"
-import AssignWinch from "@/pages/Garage/AssignWinch"
-import Estimation from "@/pages/Garage/Estimation"
-import EstimationApproval from "@/pages/Garage/EstimationApproval"
-import EstimationApprovalKD250 from "@/pages/Garage/EstimationApprovalKD250"
-import FinalQCGarage from "@/pages/Garage/FinalQCGarage"
-import FinalQCMOI from "@/pages/Garage/FinalQCMOI"
-import GarageRequestVoucher from "@/pages/Garage/GarageRequestVoucher"
-import GarageTransfer from "@/pages/Garage/GarageTransfer"
-import ImageUploadGarage from "@/pages/Garage/ImageUploadGarage"
-import InspectionGarage from "@/pages/Garage/InspectionGarage"
-import ItemRequestApproval from "@/pages/Garage/ItemRequestApproval"
-import ItemRequestVoucher from "@/pages/Garage/ItemRequestVoucher"
-import ParkingGarage from "@/pages/Garage/ParkingGarage"
-import QCPassIn from "@/pages/Garage/QCPassIn"
-import QCPassOut from "@/pages/Garage/QCPassOut"
-import RejectJobCard from "@/pages/Garage/RejectJobCard"
-import RepairJobCompletion from "@/pages/Garage/RepairJobCompletion"
-import ScrapSpares from "@/pages/Garage/ScrapSpares"
-import VehicleChecklist from "@/pages/Garage/VehicleChecklist"
-import VehicleDeliveryApproval from "@/pages/Garage/VehicleDeliveryApproval"
-import WarrantyCheck from "@/pages/Garage/WarrantyCheck"
-import Washing from "@/pages/Garage/Washing"
-import WinchMove from "@/pages/Garage/WinchMove"
 import { type RouteItem } from "@/routes"
 import { Settings2 } from "lucide-react"
+import { lazy } from "react"
+
+const AssignTeamLeader = lazy(() => import("@/pages/Garage/AssignTeamLeader"))
+const AssignTechnicianGarage = lazy(() => import("@/pages/Garage/AssignTechnicianGarage"))
+const AssignWinch = lazy(() => import("@/pages/Garage/AssignWinch"))
+const Estimation = lazy(() => import("@/pages/Garage/Estimation"))
+const EstimationApproval = lazy(() => import("@/pages/Garage/EstimationApproval"))
+const EstimationApprovalKD250 = lazy(() => import("@/pages/Garage/EstimationApprovalKD250"))
+const FinalQCGarage = lazy(() => import("@/pages/Garage/FinalQCGarage"))
+const FinalQCMOI = lazy(() => import("@/pages/Garage/FinalQCMOI"))
+const GarageRequestVoucher = lazy(() => import("@/pages/Garage/GarageRequestVoucher"))
+const GarageTransfer = lazy(() => import("@/pages/Garage/GarageTransfer"))
+const ImageUploadGarage = lazy(() => import("@/pages/Garage/ImageUploadGarage"))
+const InspectionGarage = lazy(() => import("@/pages/Garage/InspectionGarage"))
+const ItemRequestApproval = lazy(() => import("@/pages/Garage/ItemRequestApproval"))
+const ItemRequestVoucher = lazy(() => import("@/pages/Garage/ItemRequestVoucher"))
+const ParkingGarage = lazy(() => import("@/pages/Garage/ParkingGarage"))
+const QCPassIn = lazy(() => import("@/pages/Garage/QCPassIn"))
+const QCPassOut = lazy(() => import("@/pages/Garage/QCPassOut"))
+const RejectJobCard = lazy(() => import("@/pages/Garage/RejectJobCard"))
+const RepairJobCompletion = lazy(() => import("@/pages/Garage/RepairJobCompletion"))
+const ScrapSpares = lazy(() => import("@/pages/Garage/ScrapSpares"))
+const VehicleChecklist = lazy(() => import("@/pages/Garage/VehicleChecklist"))
+const VehicleDeliveryApproval = lazy(() => import("@/pages/Garage/VehicleDeliveryApproval"))
+const WarrantyCheck = lazy(() => import("@/pages/Garage/WarrantyCheck"))
+const Washing = lazy(() => import("@/pages/Garage/Washing"))
+const WinchMove = lazy(() => import("@/pages/Garage/WinchMove"))
 
 export const garageRoutes: RouteItem = {
     path: "garage",

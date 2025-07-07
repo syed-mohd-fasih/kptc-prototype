@@ -1,10 +1,11 @@
 import { type RouteItem } from "."
 import { SquareKanban } from "lucide-react"
+import { lazy } from "react"
 
-import Admin from "@/pages/dashboard/Admin"
-import ExecutiveManagement from "@/pages/dashboard/ExecutiveManagement"
-import ContractingParty from "@/pages/dashboard/ContractingParty"
-import GarageTeamLeader from "@/pages/dashboard/GarageTeamLeader"
+const Admin = lazy(() => import("@/pages/dashboard/Admin"))
+const ExecutiveManagement = lazy(() => import("@/pages/dashboard/ExecutiveManagement"))
+const ContractingParty = lazy(() => import("@/pages/dashboard/ContractingParty"))
+const GarageTeamLeader = lazy(() => import("@/pages/dashboard/GarageTeamLeader"))
 
 export const dashboardRoutes: RouteItem = {
     path: "dashboard",
