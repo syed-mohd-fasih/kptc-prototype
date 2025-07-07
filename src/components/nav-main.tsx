@@ -14,6 +14,7 @@ import {
     SidebarMenuSubButton,
     SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
+import { useTranslation } from "react-i18next"
 
 export function NavMain({
     items,
@@ -29,9 +30,11 @@ export function NavMain({
         }[]
     }[]
 }) {
+    const { t } = useTranslation()
+
     return (
         <SidebarGroup>
-            <SidebarGroupLabel>Modules</SidebarGroupLabel>
+            <SidebarGroupLabel>{t("modules")}</SidebarGroupLabel>
             <SidebarMenu>
                 {items.map((item) => (
                     <Collapsible
@@ -44,7 +47,7 @@ export function NavMain({
                             <CollapsibleTrigger asChild>
                                 <SidebarMenuButton tooltip={item.title}>
                                     {item.icon && <item.icon />}
-                                    <span>{item.title}</span>
+                                    <span>{t(item.title)}</span>
                                     <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                                 </SidebarMenuButton>
                             </CollapsibleTrigger>
@@ -58,7 +61,7 @@ export function NavMain({
                                                     to={subItem.url || "#"}
                                                     className="block px-3 py-1 text-sm hover:underline"
                                                 >
-                                                    {subItem.title}
+                                                    {t(subItem.title)}
                                                 </Link>
                                             </SidebarMenuSubButton>
                                         </SidebarMenuSubItem>

@@ -10,34 +10,34 @@ import { ReceiptIcon } from "lucide-react"
 
 export const accountsRoutes: RouteItem = {
     path: "accounts",
-    title: "Accounts",
+    title: "accounts",
     icon: ReceiptIcon,
     children: [
         {
             path: "invoice-3in1",
-            title: "3 in 1 Invoice",
+            title: "invoice_3in1",
             element: <ThreeinOneInvoice />,
         },
         {
             path: "invoice-3in1-approval",
-            title: "3 in 1 Invoice Approval",
+            title: "invoice_3in1_approval",
             element: <ThreeinOneInvoiceApproval />,
         },
         {
             path: "maintenance-invoice",
-            title: "Maintenance Invoice",
+            title: "maintenance_invoice",
             element: <MaintenanceInvoice />,
         },
-        { path: "petty-cash", title: "Petty Cash", element: <PettyCash /> },
+        { path: "petty-cash", title: "petty_cash", element: <PettyCash /> },
         {
             path: "petty-cash-approval",
-            title: "Petty Cash Approval",
+            title: "petty_cash_approval",
             element: <PettyCashApproval />,
         },
-        { path: "invoice", title: "Invoice", element: <Invoice /> },
+        { path: "invoice", title: "invoice", element: <Invoice /> },
         {
             path: "jo-submit",
-            title: "JO Submit for Invoice",
+            title: "jo_submit",
             element: <JOSubmitforInvoice />,
         },
     ],

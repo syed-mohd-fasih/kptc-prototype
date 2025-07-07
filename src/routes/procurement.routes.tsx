@@ -14,54 +14,54 @@ import { ShoppingCartIcon } from "lucide-react"
 
 export const procurementRoutes: RouteItem = {
     path: "procurement",
-    title: "Procurement",
+    title: "procurement",
     icon: ShoppingCartIcon,
     children: [
         {
             path: "purchase-request-jo",
-            title: "PR: Purchase Request (With JO)",
+            title: "purchase_request_jo",
             element: <PurchaseRequestWithJO />,
         },
         {
             path: "purchase-request-approval-moi",
-            title: "PR Approval (MOI)",
+            title: "purchase_request_approval_moi",
             element: <PurchaseRequestApprovalMOI />,
         },
         {
             path: "purchase-request-approval-kptc",
-            title: "PR Approval (KPTC)",
+            title: "purchase_request_approval_kptc",
             element: <PurchaseRequestApprovalKPTC />,
         },
         {
             path: "purchase-request-approval-third",
-            title: "PR Approval (3rd Level)",
+            title: "purchase_request_approval_third",
             element: <PurchaseRequestApproval3rdLevel />,
         },
-        { path: "quotation", title: "Quotation", element: <Quotation /> },
-        { path: "cost-report", title: "Cost Report", element: <CostReport /> },
+        { path: "quotation", title: "quotation", element: <Quotation /> },
+        { path: "cost-report", title: "cost_report", element: <CostReport /> },
         {
             path: "cost-report-approval-moi",
-            title: "Cost Report Approval (MOI)",
+            title: "cost_report_approval_moi",
             element: <CostReportApprovalMOI />,
         },
         {
             path: "cost-report-approval-kptc",
-            title: "Cost Report Approval (KPTC)",
+            title: "cost_report_approval_kptc",
             element: <CostReportApprovalKPTC />,
         },
         {
             path: "purchase-order",
-            title: "Purchase Order",
+            title: "purchase_order",
             element: <PurchaseOrder />,
         },
         {
             path: "purchase-order-approval",
-            title: "Purchase Order Approval",
+            title: "purchase_order_approval",
             element: <PurchaseOrderApproval />,
         },
         {
             path: "item-inspection",
-            title: "Item Inspection",
+            title: "item_inspection",
             element: <ItemInspection />,
         },
     ],

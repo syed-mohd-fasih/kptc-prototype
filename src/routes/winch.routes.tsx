@@ -4,7 +4,7 @@ import { TruckIcon } from "lucide-react"
 
 export const winchRoutes: RouteItem = {
     path: "winch",
-    title: "Winch",
+    title: "winch",
     icon: TruckIcon,
-    children: [{ path: "list", title: "Winch List", element: <WinchList /> }],
+    children: [{ path: "winch-list", title: "winch_list", element: <WinchList /> }],
 }

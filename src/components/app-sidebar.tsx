@@ -18,7 +18,9 @@ import {
     // StickerIcon,
     // TruckIcon,
     // WarehouseIcon,
-    Diamond,
+    // Diamond,
+    Shield,
+    Badge,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -137,9 +139,14 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         },
         teams: [
             {
-                name: "KPTC",
-                logo: Diamond,
+                name: "KPTC | MOI",
+                logo: Shield,
                 plan: "Garage Management System",
+            },
+            {
+                name: "Other",
+                logo: Badge,
+                plan: "~",
             },
         ],
         navMain: mapRoutesToNav(appRoutes, currentPath),

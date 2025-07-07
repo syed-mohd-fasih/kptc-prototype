@@ -1,9 +1,9 @@
-import { Outlet, useLocation, Link } from "react-router-dom"
+import { Outlet, useLocation } from "react-router-dom"
 import { AppSidebar } from "@/components/app-sidebar"
 import {
     Breadcrumb,
     BreadcrumbItem,
-    BreadcrumbLink,
+    // BreadcrumbLink,
     BreadcrumbList,
     BreadcrumbPage,
     BreadcrumbSeparator,
@@ -13,8 +13,11 @@ import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/s
 import { appRoutes } from "@/routes"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Toaster } from "@/components/ui/sonner"
+import { LanguageToggle } from "@/components/lang-toggle"
+import { useTranslation } from "react-i18next"
 
 function DynamicBreadcrumbs() {
+    const { t } = useTranslation()
     const location = useLocation()
     const segments = location.pathname.split("/").filter(Boolean)
 
@@ -42,13 +45,11 @@ function DynamicBreadcrumbs() {
                     <BreadcrumbItem key={crumb.href}>
                         {idx !== breadcrumbs.length - 1 ? (
                             <>
-                                <BreadcrumbLink asChild>
-                                    <Link to={crumb.href}>{crumb.name}</Link>
-                                </BreadcrumbLink>
+                                {t(crumb.name)}
                                 <BreadcrumbSeparator />
                             </>
                         ) : (
-                            <BreadcrumbPage>{crumb.name}</BreadcrumbPage>
+                            <BreadcrumbPage>{t(crumb.name)}</BreadcrumbPage>
                         )}
                     </BreadcrumbItem>
                 ))}
@@ -72,10 +73,12 @@ export default function DashboardLayout() {
                             />
                             <DynamicBreadcrumbs />
                         </div>
-                        <ModeToggle />
+                        <div className="flex items-center gap-2">
+                            <LanguageToggle />
+                            <ModeToggle />
+                        </div>
                     </div>
                 </header>
-
                 <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
                     <Outlet />
                     <Toaster expand visibleToasts={5} richColors={true} />

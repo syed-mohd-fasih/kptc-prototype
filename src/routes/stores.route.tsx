@@ -14,62 +14,62 @@ import { WarehouseIcon } from "lucide-react"
 
 export const storesRoutes: RouteItem = {
     path: "stores",
-    title: "Stores",
+    title: "stores",
     icon: WarehouseIcon,
     children: [
         {
             path: "receipt-voucher-direct",
-            title: "Receipt Voucher Direct",
+            title: "receipt_voucher_direct",
             element: <ReceiptVoucherDirect />,
         },
         {
             path: "issue-voucher",
-            title: "Issue Voucher",
+            title: "issue_voucher",
             element: <IssueVoucher />,
         },
         {
             path: "return-voucher",
-            title: "Return Voucher",
+            title: "return_voucher",
             element: <ReturnVoucher />,
         },
         {
             path: "transfer-voucher-demand",
-            title: "Transfer Voucher By Demand",
+            title: "transfer_voucher_demand",
             element: <TranferVoucherByDemand />,
         },
         {
             path: "transfer-voucher-posting",
-            title: "Transfer Voucher Posting",
+            title: "transfer_voucher_posting",
             element: <TransferVoucherPosting />,
         },
         {
             path: "purchase-request-nojo",
-            title: "Purchase Request (Without JO)",
+            title: "purchase_request_nojo",
             element: <PurchaseRequestWithoutJO />,
         },
         {
             path: "purchase-request-approval-kptc",
-            title: "PR Approval (KPTC)",
+            title: "purchase_request_approval_kptc",
             element: <PurchaseRequestApprovalKPTC />,
         },
         {
             path: "daily-transaction-report",
-            title: "Daily Transaction Report",
+            title: "daily_transaction_report",
             element: <DailyTransactionReport />,
         },
         {
             path: "stock-query",
-            title: "Stock Query Report",
+            title: "stock_query",
             element: <StockQueryReport />,
         },
         {
             path: "current-stock",
-            title: "Current Stock Report",
+            title: "current_stock",
             element: <CurrentStockReport />,
         },
         {
             path: "store-documents",
-            title: "Store Document Report",
+            title: "store_documents",
             element: <StoreDocumentReport />,
         },
     ],

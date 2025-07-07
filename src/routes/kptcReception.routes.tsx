@@ -9,33 +9,33 @@ import { BookOpen } from "lucide-react"
 
 export const kptcReceptionRoutes: RouteItem = {
     path: "kptc-reception",
-    title: "KPTC Reception",
+    title: "kptc_reception",
     icon: BookOpen,
     children: [
-        { path: "job-order", title: "Job Order (KJO)", element: <JobOrder /> },
+        { path: "job-order", title: "job_order", element: <JobOrder /> },
         {
             path: "inspection",
-            title: "Inspection (KPTC)",
+            title: "inspection",
             element: <InspectionKPTC />,
         },
         {
             path: "garage-issue-voucher",
-            title: "Garage Issue Voucher",
+            title: "garage_issue_voucher",
             element: <GarageIssueVoucher />,
         },
         {
             path: "parking",
-            title: "Parking (Reception)",
+            title: "parking_reception",
             element: <ParkingReception />,
         },
         {
             path: "change-job-status",
-            title: "Change Job Status",
+            title: "change_job_status",
             element: <ChangeJobStatus />,
         },
         {
             path: "vehicle-history",
-            title: "Vehicle History",
+            title: "vehicle_history",
             element: <VehicleHistory />,
         },
     ],

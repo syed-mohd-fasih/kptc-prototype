@@ -8,23 +8,23 @@ import GarageTeamLeader from "@/pages/dashboard/GarageTeamLeader"
 
 export const dashboardRoutes: RouteItem = {
     path: "dashboard",
-    title: "Dashboard",
+    title: "dashboard",
     icon: SquareKanban,
     children: [
-        { path: "admin", title: "Admin", element: <Admin /> },
+        { path: "admin", title: "admin", element: <Admin /> },
         {
             path: "executive-management",
-            title: "Executive Management",
+            title: "executive_management",
             element: <ExecutiveManagement />,
         },
         {
             path: "contracting-party",
-            title: "Contracting Party",
+            title: "contracting_party",
             element: <ContractingParty />,
         },
         {
             path: "garage-team-leader",
-            title: "Garage Team Leader",
+            title: "garage_team_leader",
             element: <GarageTeamLeader />,
         },
     ],

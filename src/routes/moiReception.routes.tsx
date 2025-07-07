@@ -10,38 +10,38 @@ import { Landmark } from "lucide-react"
 
 export const moiReceptionRoutes: RouteItem = {
     path: "moi-reception",
-    title: "MOI Reception",
+    title: "moi_reception",
     icon: Landmark,
     children: [
-        { path: "job-card", title: "Job Card", element: <JobCard /> },
+        { path: "job-card", title: "job_card", element: <JobCard /> },
         {
             path: "assign-inspector",
-            title: "Assign Inspector",
+            title: "assign_inspector",
             element: <AssignInspectorMOI />,
         },
         {
             path: "assign-technician",
-            title: "Assign Technician",
+            title: "assign_technician",
             element: <AssignTechnicianMOI />,
         },
         {
             path: "image-upload",
-            title: "Image Upload",
+            title: "image_upload",
             element: <ImageUploadMOI />,
         },
         {
             path: "inspection",
-            title: "Inspection (MOI)",
+            title: "inspection",
             element: <InspectionMOI />,
         },
         {
             path: "vehicle-delivery",
-            title: "Vehicle Delivery",
+            title: "vehicle_delivery",
             element: <VehicleDelivery />,
         },
         {
             path: "job-card-reopen",
-            title: "Job Card Reopen",
+            title: "job_card_reopen",
             element: <JobCardReopen />,
         },
     ],

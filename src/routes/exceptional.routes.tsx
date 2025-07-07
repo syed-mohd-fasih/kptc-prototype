@@ -4,7 +4,7 @@ import { AlertTriangleIcon } from "lucide-react"
 
 export const exceptionalOrderRoutes: RouteItem = {
     path: "exceptional-order",
-    title: "Exceptional Order",
+    title: "exceptional_order",
     icon: AlertTriangleIcon,
-    children: [{ path: "dashboard", title: "Dashboard", element: <Dashboard /> }],
+    children: [{ path: "dashboard", title: "dashboard", element: <Dashboard /> }],
 }
