@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Mock API JSON files
-public/data.json
+public/db.json
