@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 export function LanguageToggle() {
+    const { t } = useTranslation()
     const { i18n } = useTranslation()
     const [language, setLanguage] = useState(i18n.language || "en")
 
@@ -29,7 +30,7 @@ export function LanguageToggle() {
                 <Button variant="outline">{language === "en" ? "English" : "العربية"}</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-40">
-                <DropdownMenuLabel>Select Language</DropdownMenuLabel>
+                <DropdownMenuLabel>{t("select_language")}</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuRadioGroup value={language} onValueChange={handleLanguageChange}>
                     <DropdownMenuRadioItem value="en">English</DropdownMenuRadioItem>

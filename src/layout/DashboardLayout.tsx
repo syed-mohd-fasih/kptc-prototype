@@ -17,6 +17,7 @@ import { LanguageToggle } from "@/components/lang-toggle"
 import { useTranslation } from "react-i18next"
 import { Suspense } from "react"
 import PageSkeleton from "@/components/skeletons/PageSkeleton"
+import { Notification } from "@/components/notification"
 
 function DynamicBreadcrumbs() {
     const { t } = useTranslation()
@@ -76,6 +77,7 @@ export default function DashboardLayout() {
                             <DynamicBreadcrumbs />
                         </div>
                         <div className="flex items-center gap-2">
+                            <Notification />
                             <LanguageToggle />
                             <ModeToggle />
                         </div>
@@ -86,14 +88,14 @@ export default function DashboardLayout() {
                         <Outlet />
                     </Suspense>
                 </div>
+                <Toaster
+                    closeButton={true}
+                    expand={false}
+                    visibleToasts={5}
+                    richColors={true}
+                    position="top-center"
+                />
             </SidebarInset>
-            <Toaster
-                closeButton={true}
-                expand={false}
-                visibleToasts={5}
-                richColors={true}
-                position="top-center"
-            />
         </SidebarProvider>
     )
 }

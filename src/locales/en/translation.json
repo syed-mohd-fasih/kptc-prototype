@@ -119,5 +119,6 @@
     "store_documents": "Store Document Report",
     "winch": "Winch",
     "winch_list": "Winch List",
-    "modules": "Modules"
+    "modules": "Modules",
+    "select_language": "Select Language"
 }
