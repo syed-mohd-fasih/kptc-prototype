@@ -120,5 +120,8 @@
     "winch": "Winch",
     "winch_list": "Winch List",
     "modules": "Modules",
-    "select_language": "Select Language"
+    "select_language": "Select Language",
+    "new_job_card": "New Job Card",
+    "job_details": "Job Details",
+    "jobs": "Jobs"
 }

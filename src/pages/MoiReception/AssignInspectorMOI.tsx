@@ -113,7 +113,7 @@ export default function AssignInspectorMOI() {
 
     return (
         <div className="p-4">
-            {/* <h2 className="text-2xl font-bold mb-4">Assign Inspector - MOI</h2> */}
+            <h2 className="text-2xl font-bold mb-4">Assign Inspector - MOI</h2>
             <Input
                 type="text"
                 placeholder="Search by Job Card No."

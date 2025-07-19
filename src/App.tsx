@@ -22,7 +22,7 @@ export default function App() {
                 <Routes>
                     <Route path="/login" element={<Login />} />
                     <Route path="/" element={<DashboardLayout />}>
-                        <Route index element={<Navigate to="/dashboard/admin" replace />} />
+                        <Route index element={<Navigate to="/Jobs/dashboard" replace />} />
                         {renderRoutes()}
                     </Route>
                 </Routes>

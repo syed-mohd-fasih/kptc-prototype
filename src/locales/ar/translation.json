@@ -120,5 +120,8 @@
     "winch": "الونش",
     "winch_list": "قائمة الونش",
     "modules": "الوحدات",
-    "select_language": "اختر اللغة"
+    "select_language": "اختر اللغة",
+    "new_job_card": "بطاقة عمل جديدة",
+    "job_details": "تفاصيل الوظيفة",
+    "jobs": "وظائف"
 }

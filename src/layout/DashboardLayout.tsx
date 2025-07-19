@@ -84,9 +84,11 @@ export default function DashboardLayout() {
                     </div>
                 </header>
                 <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-                    <Suspense fallback={<PageSkeleton />}>
-                        <Outlet />
-                    </Suspense>
+                    <div className="@container/main py-4">
+                        <Suspense fallback={<PageSkeleton />}>
+                            <Outlet />
+                        </Suspense>
+                    </div>
                 </div>
                 <Toaster
                     closeButton={true}
